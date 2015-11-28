@@ -109,9 +109,10 @@ def test_apply_LaminateModels_cols_dimensions1():
     # Prepare file path.
     # Depends which directory nosetests is rum
     #path = os.getcwd()                                     # use for the test in the correct path
+    path = os.path.join(os.getcwd(), 'lamana', 'tests', 'controls_LT') # for builds
     #path = path + r'\lamana\tests\controls_LT'             # for Main Script. Comment out in tests
     #path = path + r'\tests\controls_LT'                    # for test
-    path = os.path.join(os.getcwd(), 'tests', 'controls_LT')# for test
+    #path = os.path.join(os.getcwd(), 'tests', 'controls_LT')          # for test
     #path = path + r'\controls_LT'                          # for test
 
     # Read all files in the path (REF 013)
@@ -178,9 +179,10 @@ def test_apply_LaminateModels_cols_models1():
     # Prepare file path.
     # Depends which directory nosetests is rum
     #path = os.getcwd()                                     # use for the test in the correct path
+    path = os.path.join(os.getcwd(), 'lamana', 'tests', 'controls_LT') # for builds
     #path = path + r'\lamana\tests\controls_LT'             # for Main Script. Comment out in tests
     #path = path + r'\tests\controls_LT'                    # for test
-    path = os.path.join(os.getcwd(), 'tests', 'controls_LT')# for test
+    #path = os.path.join(os.getcwd(), 'tests', 'controls_LT')          # for test
     #path = path + r'\controls_LT'                          # for test
 
     # Read all files in the path (REF 013)
