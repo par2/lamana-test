@@ -8,7 +8,8 @@ setup(
     author_email='par2.get@gmail.com',
     url='https://github.com/par2/lamana',             # use the URL to the github repo
     download_url='https://github.com/par2/lamana/tarball/0.4.6',
-    packages=['lamana', 'lamana.models', 'lamana.utils', 'lamana.tests'],
+    packages=['lamana', 'lamana.models', 'lamana.utils', 'lamana.tests',
+              'lamana.tests.controls_LT'],
     keywords=['laminate analysis', 'visualization'],
     #install_requires=['matplotlib', 'pandas', 'numpy'],
     classifiers=[
