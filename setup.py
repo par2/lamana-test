@@ -15,7 +15,7 @@ setup(
     packages=['lamana', 'lamana.models', 'lamana.utils', 'lamana.tests',
               'lamana.tests.controls_LT', 'lamana.models.tests'],
     keywords=['laminate analysis', 'visualization'],
-    #install_requires=['matplotlib', 'pandas', 'numpy'],
+    install_requires=['matplotlib', 'pandas', 'numpy'],
     classifiers=[
         'Framework :: IPython',
         'Intended Audience :: Science/Research',
