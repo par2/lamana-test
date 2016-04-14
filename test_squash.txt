@@ -1,3 +1,5 @@
 Adding text to trigger a commit (2)
 
 Adding more text to trigger a commit (3)
+
+These changes may clutter the repo history (4)
