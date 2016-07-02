@@ -1,2 +1,9 @@
 - stemmed from master
 - version bumped
+
+
+- this tests merging from a cloned repo
+- the develop branch is cloned
+- where does the git init get it's master branch from
+- the master branch from remote should be used other develop may diverge from master.
+- see whether to go hotfixes from main repo or cloned repo
