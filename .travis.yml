@@ -62,7 +62,7 @@ install:
 
 # Commands to run tests, coverage and nbval regression tests
 script:
-  - nosetests
+  - nosetests --collect-only
   - ls -al
 
 
