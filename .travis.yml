@@ -61,9 +61,9 @@ install:
   - pip list
 
 # Commands to run tests, coverage and nbval regression tests
-#script:
-#  - nosetests --with-cov --cov lamana
-#  - ls -al
+script:
+  - nosetests
+  - ls -al
 
 
   # Whitelist
