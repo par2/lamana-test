@@ -1,4 +1,0 @@
-- Send to remote
-- Delete from local
-- Rebase from remote
-- Try to reset before rebase

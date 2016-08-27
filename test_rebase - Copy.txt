@@ -2,3 +2,37 @@
 - Delete from local
 - Rebase from remote
 - Try to reset before rebase
+
+- Successful local rebase: applied Remove File to local feature/rebase (0c790fe to 3cfc73f)
+- Will no try to send to remote (7f49f7) using git push
+
+- Failed to git push as expected
+- Will try to git reset HEAD@{5} --soft, which is 0c790fe, before the rebase
+- Rewound the rebase to 0c790fe, but the reflog message is different, saying "reset" instead of orig commit msg.
+- Files are staged waiting to be committed.
+- git push still failed.  Probably since new commit as still preserved with --soft.  
+- Try hard reset, but copy this file to be added after push
+
+- git reset HEAD@{2} --hard, which is new 0c790fe
+- Similar reset message at this SHA
+- git pushed, still rejected
+
+- Will git reset HEAD@{16} --hard, which is acccd2 before any rebasing
+- I was one step behind remote.  I pulled, then tried to push.  Everything was up to date.
+
+
+- The trigger rebase is still on develop and rebase feature is still ahead, so
+- Now will try to pull --rebase origin develop
+- Rebased with trigger file and remove file commit.
+- Let's try to push...; rejected.
+- So even though I did a pull from origin, it still rejects the rebase; the index is locked doing git flow publish
+- Let's force push
+- Seemed to override remote branch
+
+- Will add this file, commit, and finish rebase branch
+- Can't add file to repo due to lock on git index.
+- Conclusion: avoid rebasing since can't seem to push to branch.
+
+
+
+
